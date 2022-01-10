@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+    <meta charset="utf-8">
+    <head>
+        <title>Review Portal</title>
+    </head>
+    <body bgcolor="yellow">
+        <h1><center>🍌Banana Review Portal🍌</center></h1>
+    <hr siz="3" noshade>
+        <!--form action="mailto:pradiptochowdhury6@gmail.com" method="post" enctype="text/plain">-->
+        <form action="rick.html" method="get" enctype="text/plain">
+            <label id="name">Enter your name: </label>
+            <input type="text" name="name" value="name" required><br><br>
+            <label id="number">Enter your phone number: </label>
+            <input type="text" name="Your phone number" value="numeric 10digit"required pattern="[0-9]{10}"/><br><br>
+            <label id="email">Enter your E-Mail: </label>
+            <input type="email" name="email" value="xyz@xyz.com" required><br><br>
+            <label id="gender">Enter your gender: </label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female<br><br>
+            <label id="dob">Enter your Date of Birth</label>
+            <input type="date" name="dob"><br><br>
+            <label id="file">Enter your review file: </label>
+            <input type="file" name="file" value="select here"><br><br>
+            <textarea rows="8" cols="30">Write a brief summary of your review</textarea><br><br>
+            <label id="color">Enter the colour of your banana: </label>
+            <input type="color" name="color"><br><br>
+            <label id="country">which Country?: </label>
+            <input type="text" list="country" style="background-color: yellow"/>
+<datalist id="country" name="country">
+	<option value="United States"></option>
+	<option value="India"></option>
+	<option value="Australia"></option>
+	<option value="New Zealand"></option>
+	<option value="Russia"></option>
+</datalist><br><br>
+            <input type="submit" name="submit" value="review now!">
+
+        </form>
+    </body>
+    
+</html>
